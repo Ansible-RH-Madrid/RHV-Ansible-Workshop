@@ -78,7 +78,7 @@ Example:
 ![image](images/user_portal01.png) 
 
 
-Click on the "database" VM to access the virtual machine self-management page. You'll be able to amongst others: access the virtual console, get an overview of resource consumption, do power operations, etc.
+Click on the "database" VM to access the virtual machine self-management page. You'll be able to amongst others: access the virtual console, get an overview of resource consumption, effect power operations, etc.
 
 Example:
 ![image](images/user_portal02.png)
