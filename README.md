@@ -142,7 +142,7 @@ Considering this scenario, you’ll be creating a virtual machine with the follo
 |-|--|
 
 
-Check:   
+Checkmark:   
 Start in Pause Mode  
 Delete Protection
 
@@ -158,7 +158,7 @@ To access virtual machine console, click on Console button.
 For more details on all fields in the New Virtual Machine window, see Red Hat Virtualization documentation.
 If you’d like to log into the virtual machine operating system, use the following credentials. 
 
-Login: admin
+Login: admin  
 Password: r3dh4t1!
 
 
