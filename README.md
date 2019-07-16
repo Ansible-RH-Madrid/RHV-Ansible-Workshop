@@ -10,7 +10,7 @@ There, please input your email and code so that a Lab may be assigned to you.
 |-|--|
 
 Example:
-(images/example_get_guid.png)
+![image](images/example_get_guid.png)
 
 Section 1: Red Hat Virtualization Essentials
 This first section aims to provide an overview of the Red Hat Virtualization Administration Portal and you’ll learn to:
