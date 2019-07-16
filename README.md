@@ -31,6 +31,7 @@ When accessing the Administration Portal login page, use the following credentia
 
 
 Example:
+![image](images/login_rhv.png)
 
 First screen you’ll see is the main dashboard, which provides an overview of the environment, including information on Data Centers, Clusters, Hosts, Data Storage Domains and Virtual Machines.
 
