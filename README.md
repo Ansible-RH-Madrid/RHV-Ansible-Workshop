@@ -11,11 +11,12 @@ To access the Red Hat Virtualization Administration Portal, use the URL provided
 When accessing the Administration Portal login page, use the following credentials:
 Login
 admin
+
 Password
 r3dh4t1!
+
 Profile
 internal
-
 
 
 First screen you’ll see is the main dashboard, which provides an overview of the environment, including information on Data Centers, Clusters, Hosts, Data Storage Domains and Virtual Machines.
