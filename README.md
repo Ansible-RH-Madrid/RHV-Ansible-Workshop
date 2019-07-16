@@ -77,9 +77,10 @@ You'll be greeted with a view of your VMs (being full admin, this will be all VM
 Example:
 ![image](images/user_portal01.png)
 
-Click on “Console” to access the virtual machines console, to verify it started properly. Note that you won’t be logging into this virtual machine.
+Click on the "databse" VM to access the virtual machine self-management page. You'll be able to among others: access the virtual console, get an overview of resource comsumption, do power operations, etc.  
 
-Close the console window when you confirm the virtual machines have started.  
+Example:
+![image](images/user_portal02.png)
 
 <br />
 
