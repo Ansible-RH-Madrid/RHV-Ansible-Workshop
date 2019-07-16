@@ -41,18 +41,20 @@ On the left side of the screen you may access operations related to compute, net
 Example:
 ![image](images/ui_overview.png)
 
+
 # Lab 1.1 - Explore the Administration Portal
 Explore the Administration Portal, but don’t change configurations nor create virtual machines yet.
 Virtual Machines View and Essential Operations
 This environment already has some existing virtual machines, as you can notice when accessing Compute → Virtual Machines.
 
-Next the instructor will give a brief overview and explanation of the UI. Please feel free to follow along or explore on your own, just as long as you don't create or destroy any objects it harm the learning curve.
+Next the instructor will give a brief overview and explanation of the UI. Please feel free to follow along or explore on your own, just as long as you don't create or destroy any objects it won't harm the learning curve.
 
-Lab 1.2 - Start Virtual Machine 
+
+# Lab 1.2 - Start Virtual Machine 
 Using the vertical menu on the left, go to Compute → Virtual Machines.
-Click on “dhcp” virtual machine name to view its information.
+Click on the “wordpress” virtual machine name to view its information.
 
-Click on “Run” button to start “dhcp” virtual machine.
+Click on “Run” button to start the "wordpress" virtual machine.
 
 Click on “Console” to access virtual machine console, to verify it started properly. Note that you won’t be logging into this virtual machine.
 
