@@ -32,8 +32,9 @@ When accessing the Administration Portal login page, use the following credentia
 
 
 Example:
-![image](images/login_rhv.png)
+![image](images/login_rhv.png)  
 
+<br />
 
 First screen you’ll see is the main dashboard, which provides an overview of the environment, including information on Data Centers, Clusters, Hosts, Data Storage Domains and Virtual Machines.
 On the left side of the screen you may access operations related to compute, network and storage.
@@ -41,15 +42,17 @@ On the left side of the screen you may access operations related to compute, net
 Example:
 ![image](images/ui_overview.png)  
 
+<br />
 
 # Lab 1.1 - Explore the Administration Portal
 Explore the Administration Portal, but don’t change configurations nor create virtual machines yet.
 Virtual Machines View and Essential Operations
 This environment already has some existing virtual machines, as you can notice when accessing Compute → Virtual Machines.
 
-Next the instructor will give a brief overview and explanation of the UI. Please feel free to follow along or explore on your own, just as long as you don't create or destroy any objects it won't harm the learning curve.
+Next the instructor will give a brief overview and explanation of the UI.  
+Please feel free to follow along or explore on your own, just as long as you don't create or destroy any objects it won't harm the learning curve.
 
-
+<br />
 
 # Lab 1.2 - Start Virtual Machine 
 Using the vertical menu on the left, go to Compute → Virtual Machines.
