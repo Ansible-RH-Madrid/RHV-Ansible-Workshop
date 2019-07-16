@@ -10,6 +10,7 @@ There, please input your email and code so that a Lab may be assigned to you.
 |-|--|
 
 
+
 Example:
 ![image](images/example_get_guid.png)
 
@@ -23,15 +24,9 @@ To access the Red Hat Virtualization Administration Portal, use the URL provided
 
 
 
-When accessing the Administration Portal login page, use the following credentials:
-Login
-admin
-
-Password
-r3dh4t1!
-
-Profile
-internal
+When accessing the Administration Portal login page, use the following credentials (Profile=Internal):
+|admin:|r3dh4t1!|
+|-|--|
 
 
 First screen you’ll see is the main dashboard, which provides an overview of the environment, including information on Data Centers, Clusters, Hosts, Data Storage Domains and Virtual Machines.
