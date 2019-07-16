@@ -83,6 +83,8 @@ Click on the "database" VM to access the virtual machine self-management page. Y
 Example:
 ![image](images/user_portal02.png)
 
+Ok, let's get back to the "Admin Portal".
+
 <br />
 
 # Lab 1.3 - Live Migration of the "wordpress" Memory State and the "database" Virtual Disk 
