@@ -123,7 +123,10 @@ In the Tasks view you can now follow the progress of this operation.
 <br />
 
 # Lab 1.4 - Create Virtual Machine 
-Virtual machines can be created from templates or can have the operating system installed from its installation media. For the purpose of this lab, you’ll be creating a virtual machine from a template.
+Virtual machines can be created from templates or can have the operating system installed from its installation media. For the purpose of this lab, you’ll be creating a virtual machine from a template.  
+Using the vertical menu on the left, go to Compute → Virtual Machines.
+Click New to open the New Virtual Machine window.  
+
 Considering this scenario, you’ll be creating a virtual machine with the following information:  
   
 
@@ -143,29 +146,20 @@ Check:
 Start in Pause Mode  
 Delete Protection
 
-
 For nic1, please select:  
 vm public net/vm public net
 
-
-Using the vertical menu on the left, go to Compute → Virtual Machines.
-Click New to open the New Virtual Machine window.
-
-Select “rhel-7.5-demo” Template.
-Enter “vm-1” as Name for the virtual machine.
 Keep defaults for everything else.
+Click OK.  
 
-Click OK.
 When the virtual machine creation finishes, click on Run button.
 To access virtual machine console, click on Console button.
 ℹ
 For more details on all fields in the New Virtual Machine window, see Red Hat Virtualization documentation.
 If you’d like to log into the virtual machine operating system, use the following credentials. 
 
-Login
-admin
-Password
-r3dh4t1!
+Login: admin
+Password: r3dh4t1!
 
 
 
