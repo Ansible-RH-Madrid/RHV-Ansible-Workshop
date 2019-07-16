@@ -67,6 +67,23 @@ Close the console window when you confirm the virtual machines have started.
 
 <br />
 
+# Lab 1.3 - Explore the User Admin Portal
+RHV has a very handy "VM Portal” that when paired with RBAC, allows for the self-adminstration of VMs by the end-user, without accessing the more vital "Administration Portal".
+Go back to the welcome screen by clicking the Red Hat logo in the top left corner.
+
+Click on “VM Portal” link.
+You'll be greeted with a view of your VMs (being full admin, this will be all VMs).
+
+<br />
+Example:
+![image](images/user_portal01.png)  
+
+Click on “Console” to access the virtual machines console, to verify it started properly. Note that you won’t be logging into this virtual machine.
+
+Close the console window when you confirm the virtual machines have started.  
+
+<br />
+
 # Lab 1.3 - Live Migration of the "wordpress" Memory State and the "database" Virtual Disk 
 Using the vertical menu on the left, go to Compute → Virtual Machines.  
 Click on the “database” virtual machine name to view its information.
