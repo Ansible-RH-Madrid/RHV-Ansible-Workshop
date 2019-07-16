@@ -54,14 +54,29 @@ Please feel free to follow along or explore on your own, just as long as you don
 <br />
 
 # Lab 1.2 - Start Virtual Machine 
-Using the vertical menu on the left, go to Compute → Virtual Machines.
+Using the vertical menu on the left, go to Compute → Virtual Machines.  
+Click on the “database” virtual machine name to view its information.
 Click on the “wordpress” virtual machine name to view its information.
 
+Click on “Run” button to start the "database" virtual machine.
 Click on “Run” button to start the "wordpress" virtual machine.
 
-Click on “Console” to access virtual machine console, to verify it started properly. Note that you won’t be logging into this virtual machine.
+Click on “Console” to access the virtual machines console, to verify it started properly. Note that you won’t be logging into this virtual machine.
 
-Close the console window when you confirm the dhcp virtual machine started.
+Close the console window when you confirm the virtual machines have started.  
+
+
+# Lab 1.3 - Live Migration of the "wordpress" Memory State and the "database" Virtual Disk 
+Using the vertical menu on the left, go to Compute → Virtual Machines.  
+Click on the “database” virtual machine name to view its information.
+Click on the “wordpress” virtual machine name to view its information.
+
+Click on “Run” button to start the "database" virtual machine.
+Click on “Run” button to start the "wordpress" virtual machine.
+
+Click on “Console” to access the virtual machines console, to verify it started properly. Note that you won’t be logging into this virtual machine.
+
+Close the console window when you confirm the virtual machines have started.
 
 Lab 1.3 - Create Virtual Machine 
 Virtual machines can be created from templates or can have the operating system installed from its installation media. For the purpose of this lab, you’ll be creating a virtual machine from a template.
