@@ -90,7 +90,11 @@ Ok, let's get back to the "Admin Portal".
 # Lab 1.3 - Live Migration of the "wordpress" Memory State and of the "database" Virtual Disk 
 Using the vertical menu on the left, go to Compute → Virtual Machines.  
 Click on the “wordpress” virtual machine row to select it. In the common VM operations, choose Migrate (it will automatically select the other available host).
-Click on the “database” virtual machine name to view its information.
+
+Example:
+![image](images/lv_vm01.png)  
+
+![image](images/lv_vm02.png)
 
 Click on “Run” button to start the "database" virtual machine.
 Click on “Run” button to start the "wordpress" virtual machine.
