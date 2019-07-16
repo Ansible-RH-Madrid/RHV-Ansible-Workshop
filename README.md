@@ -96,7 +96,7 @@ Using the vertical menu on the left, go to Compute → Virtual Machines.
 Click on the “wordpress” virtual machine row to select it. In the common VM operations, choose Migrate (it will automatically select the other available host).
 
 Example:
-![image](images/lv_vm07.png)  
+![image](images/lv_select.png)  
 
 <br />
 
