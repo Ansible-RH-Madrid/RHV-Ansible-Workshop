@@ -72,12 +72,9 @@ RHV has a very handy "VM Portal” that when paired with RBAC, allows for the se
 Go back to the welcome screen by clicking the Red Hat logo in the top left corner.
 
 Click on “VM Portal” link.
-You'll be greeted with a view of your VMs (being full admin, this will be all VMs).
-
-<br />
-
+You'll be greeted with a view of your VMs (being full admin, this will be all VMs).  
 Example:
-![image](images/user_portal01.png)  
+![image](images/user_portal01.png)
 
 Click on “Console” to access the virtual machines console, to verify it started properly. Note that you won’t be logging into this virtual machine.
 
