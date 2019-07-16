@@ -94,6 +94,8 @@ Click on the “wordpress” virtual machine row to select it. In the common VM 
 Example:
 ![image](images/lv_vm01.png)  
 
+
+Go ahead and click "Migrate"
 ![image](images/lv_vm02.png)
 
 Click on “Run” button to start the "database" virtual machine.
