@@ -39,7 +39,7 @@ First screen you’ll see is the main dashboard, which provides an overview of t
 On the left side of the screen you may access operations related to compute, network and storage.
 
 Example:
-![image](images/ui_overview.png)
+![image](images/ui_overview.png)  
 
 
 # Lab 1.1 - Explore the Administration Portal
@@ -48,6 +48,7 @@ Virtual Machines View and Essential Operations
 This environment already has some existing virtual machines, as you can notice when accessing Compute → Virtual Machines.
 
 Next the instructor will give a brief overview and explanation of the UI. Please feel free to follow along or explore on your own, just as long as you don't create or destroy any objects it won't harm the learning curve.
+
 
 
 # Lab 1.2 - Start Virtual Machine 
