@@ -65,6 +65,7 @@ Click on “Console” to access the virtual machines console, to verify it star
 
 Close the console window when you confirm the virtual machines have started.  
 
+<br />
 
 # Lab 1.3 - Live Migration of the "wordpress" Memory State and the "database" Virtual Disk 
 Using the vertical menu on the left, go to Compute → Virtual Machines.  
