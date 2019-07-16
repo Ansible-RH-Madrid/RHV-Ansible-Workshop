@@ -118,46 +118,33 @@ Now, please select the "database" VM, this time clicking on it's name and then a
 
 ![image](images/lv_vm08.png) 
 
-In the Tasks view you can now follow the progress of this operation.
+In the Tasks view you can now follow the progress of this operation.  
 
-Click on “Run” button to start the "database" virtual machine.
-Click on “Run” button to start the "wordpress" virtual machine.
+<br />
 
-Click on “Console” to access the virtual machines console, to verify it started properly. Note that you won’t be logging into this virtual machine.
-
-Close the console window when you confirm the virtual machines have started.
-
-Lab 1.3 - Create Virtual Machine 
+# Lab 1.4 - Create Virtual Machine 
 Virtual machines can be created from templates or can have the operating system installed from its installation media. For the purpose of this lab, you’ll be creating a virtual machine from a template.
-Considering this scenario, you’ll be creating a virtual machine with the following information:
-Cluster
-Production
-Template
-Rhel-7.5-demo | base version(1)
-Operating system
-Red Hat Enterprise Linux 7.x x64
-Instance Type
-Custom
-Optimized for
-Server
-Name
-vm-1
-Description
+Considering this scenario, you’ll be creating a virtual machine with the following information:  
+  
+
+|-|--|
+|-|--|
+|Cluster:|Production|
+|Template:|Rhel-7.5-demo base version(1) |
+|Operating system:|Red Hat Enterprise Linux 7.x x64  |  
+|Instance Type:|Small  |   
+|Optimized for:|Server  |  
+|Name:|test_vm  |  
+|Description:|to_detete  |  
+|-|--|
 
 
-Comment
-
-
-Stateless
-
-
-Start in Pause Mode
-
-
+Check:   
+Start in Pause Mode  
 Delete Protection
 
 
-nic1
+For nic1, please select:  
 vm public net/vm public net
 
 
