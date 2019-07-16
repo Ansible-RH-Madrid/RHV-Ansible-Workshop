@@ -89,7 +89,7 @@ Ok, let's get back to the "Admin Portal".
 
 # Lab 1.3 - Live Migration of the "wordpress" Memory State and of the "database" Virtual Disk 
 Let's start by conecting to the wordpress frontend: https://wordpress-GUID.rhpds.opentlc.com  
-This will be used tp atest the availability during the live migration ops. Feel free to browse the site's interface while the following operations take place.
+This will be used to atest availability during the live migration ops. Feel free to browse the site's interface while the following operations take place.
 
 
 Using the vertical menu on the left, go to Compute → Virtual Machines.  
