@@ -3,7 +3,6 @@
 **
 
 We'll start by logging into the demo environment at: https://bit.ly/2LosqDT
-
 There, please input your email and code so that a Lab may be assigned to you.
 
 |Activation Code:|rhlisboa|
@@ -20,7 +19,7 @@ Start existing virtual machines.
 Create virtual machines. 
 Access the console of a virtual machine.
 Red Hat Virtualization Administration Portal
-To access the Red Hat Virtualization Administration Portal, use the URL provided to you (eg. https://rhvm-<GUID>.rhpds.opentlc.com) and click on the link "Administration Portal".
+To access the Red Hat Virtualization Administration Portal, use the URL provided to you (eg. https://rhvm-?GUID?.rhpds.opentlc.com) and click on the link "Administration Portal".
 
 
 
