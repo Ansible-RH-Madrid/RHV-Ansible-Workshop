@@ -30,6 +30,8 @@ When accessing the Administration Portal login page, use the following credentia
 |-|--|
 
 
+Example:
+
 First screen you’ll see is the main dashboard, which provides an overview of the environment, including information on Data Centers, Clusters, Hosts, Data Storage Domains and Virtual Machines.
 
 On the left side of the screen you may access operations related to compute, network and storage.
