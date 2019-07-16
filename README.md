@@ -73,6 +73,7 @@ Go back to the welcome screen by clicking the Red Hat logo in the top left corne
 
 Click on “VM Portal” link.
 You'll be greeted with a view of your VMs (being full admin, this will be all VMs).  
+
 Example:
 ![image](images/user_portal01.png)
 
