@@ -98,17 +98,17 @@ Example:
 
 Go ahead and click "Migrate"
 ![image](images/lv_vm02.png)  
-
 You can check the progress of the migration either on the VMs view or the Tasks view.  
 
-
-Now, please select the "database" VM, this time clicking on it's name and then accessing the "Disks" tab in order to live migrate the device.
-![image](images/lv_vm03.png)  
+<br />
+Now, please select the "database" VM, this time clicking on it's name and then accessing the "Disks" tab in order to live migrate the device.  ![image](images/lv_vm03.png)  
   
+<br />
 
 ![image](images/lv_vm04.png)  
   
-  
+<br />
+
 ![image](images/lv_vm05.png) 
 
 In the Tasks view you can now follow the progress of this operation.
