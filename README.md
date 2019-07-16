@@ -1,9 +1,8 @@
 **
 ## Welcome all to this RHV + Ansible Tower Workshop
-
 **
-We'll start by logging into the demo environment at: https://bit.ly/2LosqDT
 
+We'll start by logging into the demo environment at: https://bit.ly/2LosqDT
 There, please input your email and code so that a Lab may be assigned to you.
 |Activation Code:|rhlisboa|
 |-|--|
