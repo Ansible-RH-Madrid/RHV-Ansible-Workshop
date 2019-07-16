@@ -101,6 +101,7 @@ Go ahead and click "Migrate"
 You can check the progress of the migration either on the VMs view or the Tasks view.  
 
 <br />
+
 Now, please select the "database" VM, this time clicking on it's name and then accessing the "Disks" tab in order to live migrate the device.  
 ![image](images/lv_vm03.png)  
   
