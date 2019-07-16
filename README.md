@@ -9,6 +9,7 @@ There, please input your email and code so that a Lab may be assigned to you.
 |Activation Code:|rhlisboa|
 |-|--|
 
+
 Example:
 ![image](images/example_get_guid.png)
 
