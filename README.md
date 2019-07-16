@@ -75,9 +75,13 @@ Click on “VM Portal” link.
 You'll be greeted with a view of your VMs (being full admin, this will be all VMs).  
 
 Example:
-![image](images/user_portal01.png)
+![image](images/user_portal01.png) 
 
-Click on the "databse" VM to access the virtual machine self-management page. You'll be able to among others: access the virtual console, get an overview of resource comsumption, do power operations, etc.  
+
+Click on the "database" VM to access the virtual machine self-management page. You'll be able to among others: access the virtual console, get an overview of resource comsumption, do power operations, etc.  
+  
+  
+<br />
 
 Example:
 ![image](images/user_portal02.png)
