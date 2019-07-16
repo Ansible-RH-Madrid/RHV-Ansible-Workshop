@@ -1,5 +1,5 @@
 **
-## Welcome all to this RHV + Ansible Tower Workshop
+## RHV + Ansible Tower Workshop
 **
 
 We'll start by logging into the demo environment at: https://bit.ly/2LosqDT
