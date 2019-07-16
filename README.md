@@ -91,6 +91,7 @@ Ok, let's get back to the "Admin Portal".
 Let's start by conecting to the wordpress frontend: https://wordpress-GUID.rhpds.opentlc.com  
 This will be used to atest availability during the live migration ops. Feel free to browse the site's interface while the following operations take place.
 
+<br />
 
 Using the vertical menu on the left, go to Compute → Virtual Machines.  
 Click on the “wordpress” virtual machine row to select it. In the common VM operations, choose Migrate (it will automatically select the other available host).
