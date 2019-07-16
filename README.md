@@ -111,7 +111,7 @@ Now, please select the "database" VM, this time clicking on it's name and then a
   
 <br />
 
-![image](images/lv_vm05.png) 
+![image](images/lv_vm08.png) 
 
 In the Tasks view you can now follow the progress of this operation.
 
