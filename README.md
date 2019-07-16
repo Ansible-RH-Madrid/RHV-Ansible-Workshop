@@ -25,6 +25,7 @@ To access the Red Hat Virtualization Administration Portal, use the URL provided
 
 
 When accessing the Administration Portal login page, use the following credentials (Profile=Internal):
+
 |admin:|r3dh4t1!|
 |-|--|
 
