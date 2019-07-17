@@ -213,10 +213,9 @@ Ansible Tower is a web-based UI that provides an enterprise solution for IT auto
 Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/
 |td-admin|r3dh4t1!|
 |-|--|  
+<br />  
 
 **Here you'll be presented with the Tower UI:**  
 ![image](images/tower_ui.png)  
 
-
-
-
+There are some key features of the UI that the instructor will go trough. Please follow to the best of your abilities.
