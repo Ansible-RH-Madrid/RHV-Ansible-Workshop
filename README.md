@@ -122,7 +122,7 @@ In the Tasks view you can now follow the progress of this operation.
 
 <br />
 
-# Lab 1.4 - Create Virtual Machine 
+# Lab 1.4 - Create Virtual Machine AD-HOC
 Virtual machines can be created from templates or can have the operating system installed from its installation media. For the purpose of this lab, you’ll be creating a virtual machine from a template.  
 Using the vertical menu on the left, go to Compute → Virtual Machines.
 Click New to open the New Virtual Machine window.  
