@@ -211,7 +211,7 @@ For true enterprise scale execution and compliance, there's Ansible Tower.
 ---
 
 Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/  
-|td-admin|r3dh4t1!|
+|td-admin|r3dh4t1!|  
 |-|--|  
 <br />  
 
