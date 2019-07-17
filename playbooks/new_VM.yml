@@ -87,7 +87,6 @@
 
    - name: Auto-subscribe RHEL to available content.
      redhat_subscription:
-       state: present
        auto_attach: true
 
 #   - name: Name resolution for "{{ new_vm_name }}"
