@@ -192,7 +192,7 @@ Using human-readable code, organized into Ansible playbooks
 <br />
 
 Operators can leverage the tailor-made DevOps Ansible Architecture  
-![image](images/ansible_arq)  
+![image](images/ansible_arq.png)  
 
 
 Ansible Tower is a web-based UI that provides an enterprise solution for IT automation.  
