@@ -2,23 +2,20 @@
 - hosts: all
   remote_user: root
   vars:
-    new_vm_name: "test00.labmad.redhat.com"
-    new_vm_ip: "10.32.170.XXX"
-    new_vm_root_pw: "XXXXX"
+    new_vm_name: 
+    new_vm_ip: 
+    new_vm_root_pw:
     new_vm_cores: "2"
     new_vm_mem: "1024MiB"
-    new_vm_msk: "255.255.255.0"
-    new_vm_gw: "10.32.170.254"
-    new_vm_dns: "10.32.170.50"
-    new_vm_dns_search: "labmad.redhat.com"
+    new_vm_msk:
+    new_vm_gw: 
+    new_vm_dns:
+#    new_vm_dns_search: "labmad.redhat.com"
     engine_user: admin@internal
     engine_password: "XXXXX"
-    #engine_url: https://rhhi.labmad.redhat.com/ovirt-engine/api
-    template: CentOS7.5
-    cluster: RHHI-Cluster
-    engine_url: https://rhhi.labmad.redhat.com/ovirt-engine/api
-    #engine_url: https://rhvm.labmad.redhat.com/ovirt-engine/api
-    #cluster: Top_Nodes
+    template: 
+    cluster:
+    engine_url:
 
 
   pre_tasks:
@@ -48,16 +45,16 @@
           nic_netmask: "{{ new_vm_msk }}"
           nic_gateway: "{{ new_vm_gw }}" 
           dns_servers: "{{ new_vm_dns }}" 
-          dns_search: "{{ new_vm_dns_search }}"
+#         dns_search: "{{ new_vm_dns_search }}"
           nic_name: eth0
           nic_on_boot: true
           host_name: "{{ new_vm_name }}"
-          custom_script: |
-            write_files:
-             - content: |
-                 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDO1YG8hrN5vg8Nvshut0l1D8kvFcBSgNjrwmaJF/QfwjzMImCklr8L0b8cDtr9LFBhVwtQ4CHenpf/fB5b2FsM9GDf5GD62xd2BzmcLcf6Y2uPmpfjXafJ0UvJgchj4kdLDnHpsOQeD5E9y+yQtZCSbQfZcbgfFncJmWIPJ4DSmckYhHXL3bWIRQNIcr2mN75zv+sQXrpnlhyeJFn2CepRlGYTAdm6Fcn2lsHW3kqZCw27Nc9XFCk1kkzuS2/2czGFnd0sMWGCkHpeoQLoCWq55rBngUB/JB/o1OVpxfs4aXb9TJN8PlHxO4llbMyl2tSGA5JXw1rqc35pDvLGHBRj jmn@black.remote.csb
-               path: /root/.ssh/authorized_keys
-               permissions: '0600'
+#          custom_script: |
+#write_files:
+#             - content: |
+#                 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDO1YG8hrN5vg8Nvshut0l1D8kvFcBSgNjrwmaJF/QfwjzMImCklr8L0b8cDtr9LFBhVwtQ4CHenpf/fB5b2FsM9GDf5GD62xd2BzmcLcf6Y2uPmpfjXafJ0UvJgchj4kdLDnHpsOQeD5E9y+yQtZCSbQfZcbgfFncJmWIPJ4DSmckYhHXL3bWIRQNIcr2mN75zv+sQXrpnlhyeJFn2CepRlGYTAdm6Fcn2lsHW3kqZCw27Nc9XFCk1kkzuS2/2czGFnd0sMWGCkHpeoQLoCWq55rBngUB/JB/o1OVpxfs4aXb9TJN8PlHxO4llbMyl2tSGA5JXw1rqc35pDvLGHBRj jmn@black.remote.csb
+#               path: /root/.ssh/authorized_keys
+#               permissions: '0600'
           user_name: root
           root_password: "{{ new_vm_root_pw }}"
 
@@ -68,34 +65,34 @@
        port: 22
        delay: 2
  
-   - name: Clear OLD nameserver from /etc/resolv.conf
-     lineinfile:
-       path: /etc/resolv.conf
-       regexp: "^nameserver"
-       state: absent
-     delegate_to: "{{ new_vm_ip }}"
-
-   - name: Set unique nameserver in /etc/resolv.conf
-     lineinfile:
-       path: /etc/resolv.conf
-       regexp: "^nameserver"
-       line: "nameserver {{ new_vm_dns }}"
-       state: present
-     delegate_to: "{{ new_vm_ip }}"
+#   - name: Clear OLD nameserver from /etc/resolv.conf
+#     lineinfile:
+#       path: /etc/resolv.conf
+#       regexp: "^nameserver"
+#       state: absent
+#     delegate_to: "{{ new_vm_ip }}"
+#
+#   - name: Set unique nameserver in /etc/resolv.conf
+#     lineinfile:
+#       path: /etc/resolv.conf
+#       regexp: "^nameserver"
+#       line: "nameserver {{ new_vm_dns }}"
+#       state: present
+#     delegate_to: "{{ new_vm_ip }}"
 
    - name: Set Hostname "{{ new_vm_name }}"
      hostname:
         name: "{{ new_vm_name }}"
      delegate_to: "{{ new_vm_ip }}"
 
-   - name: Name resolution for "{{ new_vm_name }}"
-     lineinfile:
-        dest=/etc/hosts
-        regexp="^{{ new_vm_ip }}"
-        line='{{ new_vm_ip }} {{ new_vm_name }}'
-        state=present
-     notify: Restart DNS
-     delegate_to: "{{ new_vm_dns }}"
+#   - name: Name resolution for "{{ new_vm_name }}"
+#     lineinfile:
+#        dest=/etc/hosts
+#        regexp="^{{ new_vm_ip }}"
+#        line='{{ new_vm_ip }} {{ new_vm_name }}'
+#        state=present
+#     notify: Restart DNS
+#     delegate_to: "{{ new_vm_dns }}"
     
    - name: Install epel
      yum: name=epel-release state=latest
@@ -122,7 +119,7 @@
       tags:
         - always
 
-  handlers:
-    - name: Restart DNS
-      systemd: state=restarted name=dnsmasq
-      delegate_to: "{{ new_vm_dns }}"
+#  handlers:
+#    - name: Restart DNS
+#      systemd: state=restarted name=dnsmasq
+#      delegate_to: "{{ new_vm_dns }}"
