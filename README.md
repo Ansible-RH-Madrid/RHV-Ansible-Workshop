@@ -159,40 +159,38 @@ For more details on all fields in the New Virtual Machine window, see Red Hat Vi
 If you’d like to log into the virtual machine operating system, use the following credentials. 
 
 Login: admin  
-Password: r3dh4t1!
-
-<br />
+Password: r3dh4t1!  
 
 
-## Ansible Tower and Automating day-to-day Ops  
+
+### Ansible Tower and Automating day-to-day Ops  
 
 
-Ansible is a full DevOps framework, designed from the ground up for simplicity and reduced footprint  
-
+**Ansible is a full DevOps framework, designed from the ground up for simplicity and reduced footprint**  
 ![image](images/ansible_automation.png)  
 
 <br />
 
-I'ts mais strenghts can be categorized into:
+**I'ts mais strenghts can be categorized into:**
 ![image](images/ansible_strenghts.png)  
 <br />
 
 
-By targeting pretty much all techonogy verticals (from Windows OS's to full public cloud IaaS). 
+**By targeting pretty much all techonogy verticals (from Windows OS's to full public cloud IaaS).** 
 ![image](images/ansible_capabilities.png)  
 <br />
 
 
-Ansible can bridge the gap bettwen traditionally air-tight silos, and enable true to form DevOps interactions.
+**Ansible can bridge the gap bettwen traditionally air-tight silos, and enable true to form DevOps interactions.**
 ![image](images/language_devops.png)  
 
 <br />
 
-Using human-readable code, organized into Ansible playbooks  
+**Using human-readable code, organized into Ansible playbooks.**  
 ![image](images/simple_plb.png)  
 <br />
 
-Operators can leverage the tailor-made DevOps Ansible Architecture  
+**Operators can leverage the tailor-made DevOps Ansible Architecture.**  
 ![image](images/ansible_arq.png)  
 <br />
 
@@ -205,10 +203,12 @@ Ansible Tower is a web-based UI that provides an enterprise solution for IT auto
 --> It has a user-friendly dashboard  
 --> Complements Ansible, adding automation, visual management, and monitoring capabilities.  
 --> Provides user access control to administrators.  
---> Graphically manages or synchronizes inventories with a wide variety of sources. 
---> A RESTful API
+--> Graphically manages or synchronizes inventories with a wide variety of sources.   
+--> A RESTful API  
 --> And much more…​
+<br />  
 
+---
 
 
 
