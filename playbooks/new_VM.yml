@@ -89,7 +89,7 @@
      command: |
        subscription-manager refresh
        subscription-manager attach --auto
-       
+     delegate_to: "{{ new_vm_ip }}"  
 
 #   - name: Auto-subscribe RHEL to available content.
 #     redhat_subscription:
