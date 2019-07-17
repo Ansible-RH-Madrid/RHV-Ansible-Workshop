@@ -10,3 +10,8 @@
         state: present
         name: "{{ package_name }}"
 
+
+    - name: install python package
+      shell: |
+        pip install ovirt-engine-sdk-python==4.2.4
+
