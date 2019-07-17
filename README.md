@@ -195,7 +195,7 @@ Password: r3dh4t1!
 <br />
 
 
-Up until now we've talked about the capabilities of the "Ansible Core" engine.
+Up until now we've talked about the capabilities of the "Ansible Core" engine.  
 For true enterprise scale execution and compliance, there's Ansible Tower.  
 ![image](images/tower_ui.png)  
 
@@ -209,6 +209,13 @@ Ansible Tower is a web-based UI that provides an enterprise solution for IT auto
 <br />  
 
 ---
+
+Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/
+|td-admin|r3dh4t1!|
+|-|--|  
+
+**Here you'll be presented with the Tower UI:**  
+![image](images/tower_ui.png)  
 
 
 
