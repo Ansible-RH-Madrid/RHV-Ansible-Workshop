@@ -6,8 +6,8 @@
     template_name:
     cluster:
     description: "Test template"
-    new_vm_ip:
-    new_vm_root_pw:
+#    new_vm_ip:
+#    new_vm_root_pw:
 #    new_vm_cores: "2"
 #    new_vm_mem: "1024MiB"
 #    new_vm_msk:
@@ -30,9 +30,10 @@
         - always
 
   tasks:
-   - name: Creating VM
+   - name: Creating template
      ovirt_templates:
        cluster: Production
+       auth: "{{ ovirt_auth }}"
        name: RHEL7-workshop 
        vm: database
 #       cpu_profile: Default
