@@ -1,5 +1,5 @@
 ---
-- hosts: database
+- hosts: all
 
   tasks:
 
