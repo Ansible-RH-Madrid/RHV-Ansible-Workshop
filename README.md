@@ -178,11 +178,12 @@ I'ts mais strenghts can be categorized into:
 <br />
 
 
-By targeting pretty much all techonogy verticals (from Windows OS's to full public cloud IaaS), Ansible can bridge the gap bettwen traditionally air-tight silos, and enable true to form DevOps interactions.
+By targeting pretty much all techonogy verticals (from Windows OS's to full public cloud IaaS). 
 ![image](images/ansible_capabilities.png)  
 <br />
 
 
+Ansible can bridge the gap bettwen traditionally air-tight silos, and enable true to form DevOps interactions.
 ![image](images/language_devops.png)  
 
 <br />
