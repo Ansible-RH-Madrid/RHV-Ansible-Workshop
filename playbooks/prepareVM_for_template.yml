@@ -29,7 +29,7 @@
        path: /etc/sudoers
        state: absent
        regexp: '^HWADDR'
-     delegate_to: "{{ vm_to_copy_dns }}"
+     delegate_to: "{{ vm_to_copy_ip }}"
 
 
    - name: Power off VM
