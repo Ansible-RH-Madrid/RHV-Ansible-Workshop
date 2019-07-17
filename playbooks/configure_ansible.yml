@@ -2,7 +2,7 @@
 - name: Update and install ansible needed packages
   hosts: all
   vars:
-    package_name: "ansible-2.7"
+    package_name: "ansible-2.7.1"
 
   tasks:
     - name: update ansible
