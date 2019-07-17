@@ -199,7 +199,7 @@ Up until now we've talked about the capabilities of the "Ansible Core" engine.
 For true enterprise scale execution and compliance, there's Ansible Tower.  
 ![image](images/tower_ui.png)  
 
-Ansible Tower is a web-based UI that provides an enterprise solution for IT automation.  
+**Ansible Tower is a web-based UI that provides an enterprise solution for IT automation.**  
 --> It has a user-friendly dashboard  
 --> Complements Ansible, adding automation, visual management, and monitoring capabilities.  
 --> Provides user access control to administrators.  
@@ -210,7 +210,7 @@ Ansible Tower is a web-based UI that provides an enterprise solution for IT auto
 
 ---
 
-Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/
+Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/  
 |td-admin|r3dh4t1!|
 |-|--|  
 <br />  
