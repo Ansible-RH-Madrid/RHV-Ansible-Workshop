@@ -161,5 +161,20 @@ If you’d like to log into the virtual machine operating system, use the follow
 Login: admin  
 Password: r3dh4t1!
 
+<br />
 
-
+
+# Ansible Tower and Automating day-to-day Ops  
+
+
+
+Ansible Tower is a web-based UI that provides an enterprise solution for IT automation.  
+It has a user-friendly dashboard  
+Complements Ansible, adding automation, visual management, and monitoring capabilities.  
+Provides user access control to administrators.  
+Graphically manages or synchronizes inventories with a wide variety of sources. 
+A RESTful API
+And much more…​
+
+
+
