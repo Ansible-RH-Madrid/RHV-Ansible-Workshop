@@ -194,6 +194,7 @@ Using human-readable code, organized into Ansible playbooks
 
 Operators can leverage the tailor-made DevOps Ansible Architecture  
 ![image](images/ansible_arq.png)  
+<br />
 
 
 Up until now we've talked about the capabilities of the "Ansible Core" engine.
