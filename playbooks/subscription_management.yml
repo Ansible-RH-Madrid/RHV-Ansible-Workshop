@@ -4,7 +4,7 @@
 
   tasks:
     - name: Auto-subscribe RHEL to available content.
-      command: 
+      shell:
         subscription-manager refresh
 #        subscription-manager attach --auto
 
