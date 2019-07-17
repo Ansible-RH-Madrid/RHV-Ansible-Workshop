@@ -10,3 +10,4 @@
       yum:
         state: "{{ package_state }}"
         name: "{{ package_name }}"
+      become: true
