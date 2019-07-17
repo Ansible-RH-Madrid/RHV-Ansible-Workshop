@@ -34,7 +34,7 @@
      ovirt_templates:
        cluster: Production
        auth: "{{ ovirt_auth }}"
-       name: RHEL7-workshop 
-       vm: database
+       name: "{{ template_name}}" 
+       vm: "{{ vm_name }}"
 #       cpu_profile: Default
-       description: Test
+       description: "{{ description }}"
