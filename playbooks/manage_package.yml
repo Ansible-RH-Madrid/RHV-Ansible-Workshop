@@ -2,8 +2,8 @@
 - name: Manage packages 
   hosts: all
   vars:
-    package_name: "ansible-2.7.1"
-    package_state: "present"
+    package_name: ""
+    package_state: ""
 
   tasks:
     - name: update ansible
