@@ -1,0 +1,12 @@
+---
+- name: Update and install ansible needed packages
+  hosts: all
+  vars:
+    packate_name: "ansible-2.7"
+
+  tasks:
+    - name: update ansible
+      yum:
+        state: present
+        namne: "{{ package_name }}"
+
