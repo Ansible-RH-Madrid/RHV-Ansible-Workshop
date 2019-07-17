@@ -3,7 +3,7 @@
   remote_user: root
   vars:
     vm_to_copy: ScaleUP
-    vm_to_copy_dns: scaleup.example.com
+    vm_to_copy_ip: 10.10.90.54
   vars_files:
     - ovirt-engine-vars.yml
 
