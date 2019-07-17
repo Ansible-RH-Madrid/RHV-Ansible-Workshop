@@ -196,6 +196,11 @@ Operators can leverage the tailor-made DevOps Ansible Architecture
 ![image](images/ansible_arq.png)  
 
 
+Up until now we've talked about the capabilities of the "Ansible Core" engine.
+For true enterprise scale execution and compliance, there's Ansible Tower.  
+<br />
+![image](images/tower_ui.png)  
+
 Ansible Tower is a web-based UI that provides an enterprise solution for IT automation.  
 It has a user-friendly dashboard  
 Complements Ansible, adding automation, visual management, and monitoring capabilities.  
@@ -203,6 +208,8 @@ Provides user access control to administrators.
 Graphically manages or synchronizes inventories with a wide variety of sources. 
 A RESTful API
 And much more…​
+
+
 
 
 
