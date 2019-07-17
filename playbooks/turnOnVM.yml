@@ -1,0 +1,40 @@
+---
+- hosts: all
+  remote_user: root
+  vars:
+    vm_to_copy: database 
+    vm_to_copy_ip: 10.10.90.51
+  vars_files:
+    - ovirt-engine-vars.yml
+
+  pre_tasks:
+    - name: Login to oVirt
+      ovirt_auth:
+        url: "{{ engine_url }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        insecure: "{{ engine_insecure | default(true) }}"
+      tags:
+        - always
+
+  tasks:
+   - name: Power on VM
+     ovirt_vms:
+       auth: "{{ ovirt_auth }}"
+       state: running
+       name: "{{ vm_to_copy }}"
+
+   - name: Wait until VM is accesible
+     wait_for:
+       host: "{{ vm_to_copy_ip }}"
+       port: 22
+       delay: 2
+
+  post_tasks:
+    - name: Logout from oVirt
+      ovirt_auth:
+        state: absent
+        ovirt_auth: "{{ ovirt_auth }}"
+      tags:
+        - always
+

@@ -1,0 +1,10 @@
+---
+- hosts: all
+
+  tasks:
+
+   - name: delete HW line from ifconfig-eth0
+     lineinfile:
+       path: /etc/sysconfig/network-scripts/ifcfg-eth0
+       state: absent
+       regexp: '^HWADDR'
