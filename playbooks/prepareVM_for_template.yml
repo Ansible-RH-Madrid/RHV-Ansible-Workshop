@@ -1,0 +1,48 @@
+---
+- hosts: all
+  remote_user: root
+  vars:
+    vm_to_copy: ScaleUP
+    vm_to_copy_dns: scaleup.example.com
+  vars_files:
+    - ovirt-engine-vars.yml
+
+  pre_tasks:
+    - name: Login to oVirt
+      ovirt_auth:
+        url: "{{ engine_url }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
+        insecure: "{{ engine_insecure | default(true) }}"
+      tags:
+        - always
+
+  tasks:
+   - name: Power on VM
+     ovirt_vms:
+       auth: "{{ ovirt_auth }}"
+       state: running
+       name: "{{ vm_to_copy }}"
+
+   - name: delete HW line from ifconfig-eth0
+     lineinfile:
+       path: /etc/sudoers
+       state: absent
+       regexp: '^HWADDR'
+     delegate_to: "{{ vm_to_copy_dns }}"
+
+
+   - name: Power off VM
+     ovirt_vms:
+        auth: "{{ ovirt_auth }}"
+        state: stopped
+        name: "{{ vm_to_copy }}"
+
+  post_tasks:
+    - name: Logout from oVirt
+      ovirt_auth:
+        state: absent
+        ovirt_auth: "{{ ovirt_auth }}"
+      tags:
+        - always
+

@@ -10,6 +10,12 @@
         state: present
         name: "{{ package_name }}"
 
+    - name: install libcurl-devel and libxml2-devel
+      yum:
+        state: present
+        name:
+        - libcurl-devel
+        - libxml2-devel
 
     - name: install python package
       shell: |
