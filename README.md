@@ -164,7 +164,24 @@ Password: r3dh4t1!
 <br />
 
 
-# Ansible Tower and Automating day-to-day Ops  
+## Ansible Tower and Automating day-to-day Ops  
+
+
+Ansible is a full DevOps framework, designed from the ground up for simplicity and reduced footprint  
+
+![image](images/ansible_automation.png)  
+
+<br />
+
+I'ts mais strenghts can be categorized into:
+![image](images/ansible_strenghts.png)  
+
+
+By targeting pretty much all techonogy verticals (from Windows OS's to full public cloud IaaS), Ansible can bridge the gap bettwen traditionally air-tight silos, and enable true to form DevOps interactions.
+![image](images/ansible_capabilities.png)  
+
+![image](images/language_devops.png)  
+
 
 
 
