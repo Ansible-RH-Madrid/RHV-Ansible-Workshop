@@ -7,7 +7,7 @@
     password: 
 
   tasks:
-    - name: Auto-subscribe RHEL to available content.
+    - name: Clone VM
       command: |
         curl \
         --verbose \
