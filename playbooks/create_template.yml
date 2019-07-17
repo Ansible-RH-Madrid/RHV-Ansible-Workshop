@@ -1,0 +1,38 @@
+---
+- hosts: all
+  remote_user: root
+  vars:
+    new_vm_name:
+    new_vm_ip:
+    new_vm_root_pw:
+    new_vm_cores: "2"
+    new_vm_mem: "1024MiB"
+    new_vm_msk:
+    new_vm_gw:
+    new_vm_dns:
+#    new_vm_dns_search: "labmad.redhat.com"
+    engine_user: admin@internal
+    engine_password: "XXXXX"
+    template:
+    cluster:
+    engine_url:
+
+
+  pre_tasks:
+    - name: Login to oVirt
+      ovirt_auth:
+        url: "{{ engine_url }}"
+        username: "{{ engine_user }}"
+        password: "{{ engine_password }}"
+        insecure: "{{ engine_insecure | default(true) }}"
+      tags:
+        - always
+
+  tasks:
+   - name: Creating VM
+     ovirt_templates:
+       cluster: Production
+       name: RHEL7-workshop 
+       vm: database
+#       cpu_profile: Default
+       description: Test
