@@ -1,0 +1,789 @@
+    1  ip addr shoiw
+    2  ip addr show
+    3  service sshd status
+    4  reboot
+    5  yum repolist
+    6  yum install ansible -y
+    7  yum install http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    8  yum install ansible -y
+    9  wget https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+   10  yum -y install wget telnet
+   11  yum -y install wget telnet sysstat
+   12  wget https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+   13  tar xvzf ansible-tower-setup-latest.tar.gz
+   14  cd ansible-tower-setup-3.1.4/
+   15  ls -ltrh
+   16  vim inventory 
+   17  yum install -y vim
+   18  vim inventory 
+   19  ./setup.sh 
+   20  vim inventory 
+   21  ansible-tower-service status
+   22  ansible-tower-service restart
+   23  ansible-tower-service status
+   24  ip addr show
+   25  curl --insecure https://192.168.12.213
+   26  curl --insecure https://192.168.122.213
+   27  curl http://192.168.122.213
+   28  ./setup.sh 
+   29  cat setup.sh 
+   30  ./setup.sh 
+   31  vim inventory 
+   32  ./setup.sh 
+   33  curl http://192.168.122.213
+   34  curl --insecure https://192.168.122.213
+   35  ls -ltrh /etc/tower/
+   36  cat /etc/tower/tower.cert
+   37  ip addr show
+   38  poweroff
+   39  cat .bashrc 
+   40  su - centos
+   41  history
+   42  ls -ltrh
+   43  rm ansible-tower-setup-latest.tar.gz 
+   44  wget https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+   45  ls -ltrh
+   46  gunzip ansible-tower-setup-latest.tar.gz 
+   47  ls -ltrh
+   48  tar xvf ansible-tower-setup-latest.tar 
+   49  ls -ltrh
+   50  cd ansible-tower-setup-3.1.4/
+   51  ls -ltrh
+   52  cat install.retry 
+   53  rm install.retry 
+   54  ls -ltrh
+   55  cat inventory 
+   56  cd ../ansible-tower-setup-3.2.3/
+   57  ls -ltrh
+   58  vim inventory 
+   59  cat inventory 
+   60  ./setup.sh 
+   61  systemctl status rabbitmq-server.service
+   62  vim inventory 
+   63  ./setup.sh 
+   64  ansible-tower-service status
+   65  ip addr show
+   66  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+   67  service network restart
+   68  ip addr show
+   69  pingwww.google.com
+   70  ping www.google.com
+   71  poweroff
+   72  passwd
+   73  yum repolist
+   74  ansible --version
+   75  vim /etc/ssh/sshd_config 
+   76  service sshd restart
+   77  top
+   78  cat .bashrc 
+   79  ls -ltrha
+   80  wget https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+   81  ls -ltrh
+   82  tar xvf ansible-tower-setup-latest.tar 
+   83  ls -ltrh
+   84  rm ansible-tower-setup-latest.tar ansible-tower-setup-latest.tar.gz
+   85  wget https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+   86  ls -ltrh
+   87  rm ansible-tower-setup-latest.tar.gz.1
+   88  tar xzvf ansible-tower-setup-latest.tar.gz
+   89  ls -ltrh
+   90  cd ansible-tower-setup-3.2.3
+   91  rm -rf ansible-tower-setup-3.1.4
+   92  ls -ltrh
+   93  rm install.retry
+   94  ls -ltrh
+   95  ./setup.sh -b
+   96  ls -ltrh
+   97  diff inventory ../ansible-tower-setup-3.2.5/inventory 
+   98  cat inventory 
+   99  pwd
+  100  cd ../
+  101  ls -ltrh
+  102  cd ansible-tower-setup-3.2.5
+  103  ls -ltrh
+  104  yum update ansible
+  105  vim inventory 
+  106  ./setup.sh 
+  107  reboot
+  108  ansible-tower-service status
+  109  yum update
+  110  ansible-tower-service status
+  111  ansible-tower-service stop
+  112  ansible-tower-service start
+  113  ansible-tower-service status
+  114  telnet localhost 80
+  115  telnet localhost 443
+  116  telnet ansible.localdomain 80
+  117  telnet ansible.localdomain 443
+  118  top
+  119  pip install shade
+  120  yum install pip
+  121  yum search pip
+  122  yum install python2-pip.noarch
+  123  pip --herlp
+  124  pip --help
+  125  pip list | grep shade
+  126  pip install --upgrade pip
+  127  pip list | grep shade
+  128  pip install shade
+  129  ls -ltrh
+  130  cd ansible-tower-setup-3.2.5
+  131  ./setup.sh 
+  132  reboot
+  133  ip addr show
+  134  service network restart
+  135  reboot
+  136  ip addr show
+  137  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+  138  service network restart
+  139  ip addr show
+  140  top
+  141  yum list instaled \*openstack\*
+  142  pip list | grep -i openstack
+  143  top
+  144  ansible-tower-service status
+  145  ansible-tower-service restart
+  146  yum install python-heatclient python-openstackclient python2-shade
+  147  yum search shade
+  148  yum search openstack
+  149  top
+  150  yum install epel-release python-devel openssl-devel
+  151  yum -y update
+  152  yum -y install python-pip
+  153  pip install --upgrade pip
+  154  pip install shade
+  155  pip install shade=
+  156  pip install shade==
+  157  pip install shade==1.27.1
+  158  pip --help
+  159  pip install --help
+  160  pip install --help | grep grade
+  161  yum remove python2-pip
+  162  yum install python2-pip
+  163  pip --version
+  164  pip install shade
+  165  top
+  166  ansible-tower-service status
+  167  ip route
+  168  ip addr show
+  169  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+  170  service network restart
+  171  ip route
+  172  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+  173  cat /etc/hosts
+  174  cat /etc/networks 
+  175  cat /etc/sysconfig/network
+  176  ls -ltrh /etc/sysconfig/network-scripts/
+  177  cat /etc/sysconfig/network-scripts/network-functions
+  178  systemctl status NetworkManager
+  179  dmesg
+  180  tail -100 /var/log/messages
+  181  cat /etc/resolv.conf
+  182  grep -i network /var/log/messages
+  183  yum -y update
+  184  grep -i network /var/log/messages | less
+  185  cat /etc/cloud/cloud.cfg
+  186  cat /etc/cloud/cloud.cfg.d/05_logging.cfg 
+  187  less /etc/cloud/cloud.cfg
+  188  ip route
+  189  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+  190  poweroff
+  191  top
+  192  vim .bashrc 
+  193  source .bashrc
+  194  env
+  195  top
+  196  vim /tmp/clouds.yaml
+  197  source /var/lib/awx/venv/ansible/bin/activate
+  198  pwd
+  199  export OS_CLIENT_CONFIG_FILE=/tmp/clouds.yaml
+  200  vim verifying,py
+  201  chmod +x verifying,py 
+  202  python verifying,py
+  203  vim verifying,py
+  204  vim /tmp/clouds.yaml
+  205  python verifying,py
+  206  vim /tmp/clouds.yaml
+  207  python verifying,py
+  208  vim check-connection.py
+  209  chmod +x check-connection.py 
+  210  python check-connection.py 
+  211  vim /tmp/clouds.yaml
+  212  python check-connection.py 
+  213  vim /tmp/clouds.yaml
+  214  python check-connection.py 
+  215  cat /tmp/clouds.yaml 
+  216  cp /tmp/clouds.yaml .
+  217  ls -ltrh
+  218  env
+  219  vim .bashrc 
+  220  source .bashrc
+  221  cat /tmp/clouds.yaml 
+  222  history
+  223  history | grep -i install
+  224  mkdir -p ~/.config/openstack
+  225  cp clouds.yaml ~/.config/openstack/
+  226  cat clouds.yaml 
+  227  ip addr show
+  228  vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+  229  service network restart
+  230  ip route
+  231  ping 192.168.200.1
+  232  ping google.com
+  233  reboot
+  234  ansible-tower-service status
+  235  ansible-tower-service stop
+  236  ansible-tower-service status
+  237  ip route
+  238  service network restart
+  239  ip route
+  240  reboot
+  241  yum install python-devel gcc
+  242  pip install --upgrade pip
+  243  pip install python-openstackclient
+  244  pip install shade
+  245  find / | grep openstack.py
+  246  /usr/lib/python2.7/site-packages/ansible/module_utils/openstack.py --list
+  247  openstack.py --list
+  248  /usr/lib/python2.7/site-packages/ansible/plugins/inventory/openstack.py --list
+  249  ls -ltrh /usr/lib/python2.7/site-packages/ansible/plugins/inventory/openstack.py
+  250  top
+  251  ls /etc/ansible/
+  252  ls /etc/ansible/hosts 
+  253  cat /etc/ansible/hosts 
+  254  cd
+  255  wget https://raw.githubusercontent.com/ansible/ansible/devel/contrib/inventory/openstack.py
+  256  ansible --version
+  257  yum -y update
+  258  telnet 192.168.200.10 13000
+  259  ansible-tower-service restart
+  260  top
+  261  find / | grep openstack.py
+  262  diff /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py /usr/lib/python2.7/site-packages/ansible/plugins/inventory/openstack.py
+  263  diff /var/lib/awx/venv/awx/lib/python2.7/site- /usr/lib/python2.7/site-packages/ansible/plugins/inventory/openstack.py
+  264  ls -ltrh
+  265  find / | grep openstack.py
+  266  cat check-connection.py
+  267  cat verifying,py 
+  268  ls -ltrh
+  269  find / | grep openstack.py
+  270  /var/lib/awx/venv/awx/lib/python2.7/site-
+  271  cp /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py.bkp
+  272  cp /usr/lib/python2.7/site-packages/ansible/plugins/inventory/openstack.py /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  273  mv /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py.bkp /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  274  ls -ltrh
+  275  cat clouds.yaml
+  276  cp clouds.yaml cloudsv3.yaml
+  277  cp clouds.yaml cloudsv2.yaml
+  278  vim clouds.yaml
+  279  diff verifying,py check-connection.py 
+  280  python check-connection.py 
+  281  python verifying,py 
+  282  pip install --upgrade shade
+  283  top
+  284  python verifying,py 
+  285  python check-connection.py 
+  286  top
+  287  ls -ltrh
+  288  cat clouds.yaml
+  289  find / | grep openstack.py
+  290  tail -f /var/log/tower/tower.log 
+  291  tail -200f /var/log/tower/tower.log 
+  292  tail -200f /var/log/tower/management_playb.log
+  293  tail -f /var/log/tower/*.log 
+  294  find / | grep openstack.py
+  295  /usr/lib/python2.7/site-packages/ansible/module_utils/openstack.py --list
+  296  su - awx
+  297  ls -ltrh /usr/lib/python2.7/site-packages/ansible/module_utils/openstack.py
+  298  cd
+  299  cp /usr/lib/python2.7/site-packages/ansible/module_utils/openstack.py .
+  300  chmod +x openstack.py 
+  301  ls -ltrh
+  302  ./openstack.py --list
+  303  vim /etc/ansible/ansible.cfg
+  304  ls -ltrh /etc/ansible/
+  305  cd /etc/ansible/
+  306  ls -ltrh
+  307  vim openstack.yml
+  308  yum update ansible
+  309  istory
+  310  history
+  311  python check-connection.py 
+  312  cd
+  313  python check-connection.py 
+  314  rm /etc/ansible/openstack.yml 
+  315  python check-connection.py 
+  316  ls -ltrh
+  317  python verifying,py 
+  318  rm openstack.py*
+  319  ls -ltrh
+  320  python verifying,py 
+  321  python check-connection.py 
+  322  cat verifying,py 
+  323  env
+  324  hostname
+  325  python check-connection.py 
+  326  python verifying,py 
+  327  vim /var/lib/awx/venv/awx/lib/python2.7/site-
+  328  find / | grep openstack.py
+  329  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  330  ls -ltrh
+  331  python verifying,py 
+  332  ls -ltrh
+  333  mv verifying,py verifying.py 
+  334  python check-connection.py 
+  335  python verifying,py 
+  336  python verifying.py 
+  337  ls -ltrh
+  338  cat clouds.yaml
+  339  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  340  python check-connection.py 
+  341  python verifying.py 
+  342  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  343  mkdir /etc/openstack
+  344  cp clouds.yaml /etc/openstack/
+  345  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  346  vim /etc/ansible/openstack.yml
+  347  ls -ltrh
+  348  python verifying.py 
+  349  python check-connection.py 
+  350  vim clouds.yaml 
+  351  python check-connection.py 
+  352  python verifying.py 
+  353  ls -ltrh
+  354  vim /etc/ansible/openstack.yml
+  355  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  356  yum search os-client-config
+  357  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  358  ls -ltrh .config/openstack/
+  359  cat .config/openstack/clouds.yaml 
+  360  python verifying.py 
+  361  cat .config/openstack/clouds.yaml 
+  362  ls -ltrh
+  363  cat clouds.yaml
+  364  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  365  openstack node-list
+  366  openstack endpoint list
+  367  whereis openstack
+  368  yum provides /usr/bin/openstack
+  369  cat .config/openstack/clouds.yaml 
+  370  openstack endpoint list
+  371  vim .config/openstack/clouds.yaml 
+  372  history | grep -i pip
+  373  openstack endpoint list
+  374  vim .config/openstack/clouds.yaml 
+  375  openstack endpoint list
+  376  ls -ltrh /etc/openstack/
+  377  ls -ltrh /etc/ansible/openstack.yaml
+  378  ls -ltrh /etc/ansible/openstack.yml 
+  379  cat /etc/ansible/openstack.yml 
+  380  mv /etc/ansible/openstack.yml /etc/ansible/openstack.yaml
+  381  openstack endpoint list
+  382  python -m os_client_config.config
+  383  vim .config/openstack/clouds.yaml 
+  384  python -m os_client_config.config
+  385  vim .config/openstack/clouds.yaml 
+  386  python -m os_client_config.config
+  387  ls -ltrh
+  388  openstack --os-cloud=devstack server list
+  389  openstack --os-cloud=devstack endpoint list
+  390  pd -efa | grep openstack
+  391  ps -efa | grep openstack
+  392  sar 1
+  393  free -m
+  394  ansible-tower-service restart
+  395  ansible-tower-service status -l
+  396  ls -ltrh /var/lib/awx/projects/
+  397  pwd
+  398  history
+  399  history | grep pip
+  400  yum search shade
+  401  pip remove shade
+  402  pip install shade==1.27.1
+  403  pip info
+  404  pip list
+  405  rpm -qa | grep openstack
+  406  yum search openstack
+  407  yum list installed \*openstack\*
+  408  pip list | grep openstack
+  409  yum info ansible-openstack-modules.noarch
+  410  find / | grep openstack.py
+  411  pip list | grep openstack
+  412  find / | grep openstack.py -exec 'echo {}' \;
+  413  find /usr/lib -iname  openstack.py -exec 'echo {}' \;
+  414  find / -iname  openstack.py -exec 'echo \"{}\"' \;
+  415  find / -iname  openstack.py -exec 'rpm -qf {}' \;
+  416  rpm -qf /var/lib/awx/venv/ansible/lib/python2.7/site-packages/libcloud/common/openstack.py
+  417  rpm -qf /var/lib/awx/venv/awx/lib/python2.7/site-packages/libcloud/compute/drivers/openstack.py
+  418  rpm -qf /usr/lib/python2.7/site-packages/ansible/plugins/inventory/openstack.py
+  419  rpm -qf /usr/lib/python2.7/site-packages/ansible/module_utils/openstack.py
+  420  rpm -qf /usr/lib/python2.7/site-packages/ansible/utils/module_docs_fragments/openstack.py
+  421  rpm -qf /usr/lib/python2.7/site-packages/cloudinit/sources/helpers/openstack.py
+  422  cd /usr/lib/python2.7/site-packages/
+  423  ls
+  424  rpm -qf python_cinderclient-3.6.1.dist-info/
+  425  rpm -qf python_cinderclient-3.6.1.dist-info
+  426  ls openstackclient/
+  427  ls
+  428  cd openstackclient/
+  429  ls
+  430  find . -iname openstack\*
+  431  cd ..
+  432  cd openstacksdk-0.17.0.dist-info/
+  433  ls
+  434  ll
+  435  pip list
+  436  pip list | sdk
+  437  pip list | grep sdk
+  438  pip reinstall openstacksdk
+  439  pip install openstacksdk
+  440  pip install openstacksdk==0.9.17
+  441  pip install openstacksdk==0.12.0
+  442  pip install openstacksdk --upgrade
+  443  pip list | grep openstack
+  444  pwd
+  445  cd
+  446  pip install openstacksdk==0.12.0
+  447  pip install openstacksdk --upgrade
+  448  history
+  449  history | grep pip
+  450  history
+  451  pip remove python-openstackclient
+  452  pip uninstall python-openstackclient
+  453  ls -ltrh /etc/
+  454  ls -ltrh /tmp/
+  455  history | grep pip
+  456  yum reintall ansible
+  457  yum reinstall ansible
+  458  history
+  459  history | grep pip
+  460  yum search openstack
+  461  yum install ansible-openstack-modules.noarch
+  462  rpm -ql ansible-openstack-modules.noarch
+  463  pip install python-openstackclient
+  464  openstack
+  465  openstack --os-cloud=devstack server list
+  466  find / | grep openstack.py
+  467  rpm -qf /var/lib/awx/venv/ansible/lib/python2.7/site-packages/libcloud/common/openstack.py
+  468  rpm -qf /var/lib/awx/venv/ansible/lib/python2.7/site-packages/libcloud/compute/drivers/openstack.py
+  469  rpm -qf /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  470  pip freeze | egrep "openstack|shade"
+  471  whereis openstack
+  472  yumn downgrade ansible
+  473  yum downgrade ansible
+  474  ansible-tower-service restart
+  475  ansible-tower-service status
+  476  find / | grep openstack.py
+  477  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list
+  478  pip search openstack.config
+  479  pip search config
+  480  pip search openstack.config
+  481  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list
+  482  cd /tmp/
+  483  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  484  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list
+  485  ls /etc/openstack/clouds.yaml 
+  486  ls /etc/ansible/openstack.yaml 
+  487  ls /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory
+  488  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list
+  489  cd /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory
+  490  ls -ltrha
+  491  ls /tmp/awx_218_yaRXN4
+  492  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  493  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --host vmtest1
+  494  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  495  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list | python -m json.tool
+  496  mv /etc/ansible/openstack.yaml /etc/ansible/openstack.yaml.bkp
+  497  mv /etc/openstack/clouds.yaml /etc/openstack/clouds.yaml.bkp
+  498  cd /tmp
+  499  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list | python -m json.tool
+  500  cd
+  501  cd .config/openstack/
+  502  mv clouds.yaml clouds.yaml.bkp
+  503  cd /tmp/
+  504  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list | python -m json.tool
+  505  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list
+  506  cd
+  507  vim /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  508  cat /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py
+  509  mv /etc/openstack/clouds.yaml.bkp /etc/openstack/clouds.yaml
+  510  mv /etc/ansible/openstack.yaml.bkp /etc/ansible/openstack.yaml
+  511  python /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/openstack.py --list
+  512  vim /etc/ansible/openstack.yaml 
+  513  ls -ltrh
+  514  cd .config/openstack/
+  515  mc clouds.yaml.bkp clouds.yaml
+  516  mv clouds.yaml.bkp clouds.yaml
+  517  cat clouds.yaml 
+  518  cd
+  519  cat clouds.yaml 
+  520  cat /etc/openstack/clouds.yaml 
+  521  ls
+  522  cd /var/
+  523  ls
+  524  grep -r 'import openstack'
+  525  cd lib/
+  526  grep -r 'import openstack'
+  527  grep -r 'openstack_cloud_from_module'
+  528  grep -r 'openstack_cloud_from_module' /usr/lib64/python2.7/
+  529  pip list | grep openstack
+  530  pip info python-openstackclient
+  531  pip show python-openstackclient
+  532  #pip remove python-cinderclient python-novaclient python-keystoneclient python-glanceclient keystoneauth1
+  533  pip remove --help
+  534  pip uninstall --help
+  535  pip uninstall python-cinderclient python-novaclient python-keystoneclient python-glanceclient keystoneauth1
+  536  pip show python-openstackclient
+  537  pip uninstall python-openstackclient
+  538  pip show Babel
+  539  pip show six
+  540  pip show pr
+  541  pip show pbr
+  542  pip show oslo.utils
+  543  pip show osc-lib
+  544  pip inf oosc-lib
+  545  pip 
+  546  pip show osc-lib
+  547  pip uninstall osc-lib
+  548  pip list
+  549  pip install keystoneauth1
+  550  pip install python-openstackclient
+  551  pip install os-client-config==1.28.0
+  552  python -m jsontool
+  553  python -m json.tool
+  554   /var/lib/awx/venv/
+  555  cd /var/lib/awx/venv/
+  556  ls
+  557  cd awx/lib/python2.7/
+  558  ls
+  559  cd site-packages/awx/plugins/inventory/
+  560  ls
+  561  ./openstack.py --list
+  562  vim openstack.py
+  563  history
+  564  ls -ltrh
+  565  wget https://releases.ansible.com/ansible-tower/setup/ansible-tower-setup-latest.tar.gz
+  566  ls -ltrh
+  567  rm ansible-tower-setup-latest.tar.gz
+  568  mv ansible-tower-setup-latest.tar.gz.1 ansible-tower-setup-latest.tar.gz
+  569  ls -ltrh
+  570  tar xzvf ansible-tower-setup-latest.tar.gz 
+  571  ls -ltrh
+  572  cd ansible-tower-setup-3.4.1-1/
+  573  cat inventory 
+  574  cd ../ansible-tower-setup-3.2.5/
+  575  cat inventory 
+  576  cd .
+  577  cd -
+  578  cd ../ansible-tower-setup-3.4.1-1/
+  579  vim inventory 
+  580  ./setup.sh 
+  581  reboot
+  582  ls
+  583  journalctl -b
+  584  cat /etc/resolv.conf 
+  585  cat /etc/redhat-release 
+  586  ls
+  587  rpm -q cloud-init
+  588  cd /etc/cloud/
+  589  ls
+  590  ll cloud.cfg.d/
+  591  touch /etc/cloud/cloud-init.disabled
+  592  reboot
+  593  passwd
+  594  vi .config/openstack/clouds.yaml 
+  595  vi /etc/openstack/clouds.yaml 
+  596  ip -4 add
+  597  ip link
+  598  vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+  599  systemctl restart network NetworkManager
+  600  journalctl -xe
+  601  ip link
+  602  cat /etc/sysconfig/network-scripts/ifcfg-eth0 
+  603  vi /etc/sysconfig/network-scripts/ifcfg-eth0 
+  604  systemctl restart network NetworkManager
+  605  ip -4 add
+  606  ls
+  607  curl https://rhvm.example.com
+  608  curl https://rhvm.example.com -k
+  609  cd ansible-tower-setup-3.4.1-1/
+  610  ll
+  611  less setup.sh 
+  612  ls
+  613  ps xfaww
+  614  cd /var/lib/awx/
+  615  ll
+  616  ps xfaww
+  617  2~
+  618  cd /etc/pki/
+  619  ls
+  620  cd CA/
+  621  ls
+  622  ll newcerts/
+  623  ll private/
+  624  ll certs/
+  625  cd
+  626  curl https://4rhvm-latamsmevirtualiza-lzqdfdyn.srv.ravcloud.com/ovirt-engine/services/pki-resource?resource=ca-certificate&format=X509-PEM-CA
+  627  curl -k 'https://4rhvm-latamsmevirtualiza-lzqdfdyn.srv.ravcloud.com/ovirt-engine/services/pki-resource?resource=ca-certificate&format=X509-PEM-CA'
+  628  curl -k 'https://4rhvm-latamsmevirtualiza-lzqdfdyn.srv.ravcloud.com/ovirt-engine/services/pki-resource?resource=ca-certificate&format=X509-PEM-CA' > rhvm.crt
+  629  #cp rhvm.crt /etc/pki/ca-trust/
+  630  less /etc/pki/ca-trust/README 
+  631  man update-ca-trust
+  632  cp rhvm.crt /etc/pki/ca-trust/source/anchors/
+  633  update-ca-trust export
+  634  update-ca-trust extract
+  635  curl https://rhvm.example.com 
+  636  cd /etc/pki/ca-trust/
+  637  ls
+  638  cd extracted/
+  639  ll
+  640  cd pem/
+  641  ll
+  642  less tls-ca-bundle.pem 
+  643  cd /var/lib/awx/
+  644  ls
+  645  cd projects/
+  646  ls
+  647  cd _9__openstack_project
+  648  ls
+  649  cd ..
+  650  ls
+  651  cd public/
+  652  ls
+  653  cd static/
+  654  ll
+  655  find /usr -iname awx
+  656  cd /usr/share/awx/
+  657  ls
+  658  cd ..
+  659  ls
+  660  find / -iname awx
+  661  find /var/lib/awx/ -iname plugins
+  662  cd /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/
+  663  ls
+  664  cd ansible_inventory/
+  665  ls
+  666  cd ..
+  667  ls
+  668  cd inventory/
+  669  ls
+  670  cp ovirt4.py ovirt4.py.orig
+  671  vim ovirt4.py
+  672  ll
+  673  >ovirt4.py
+  674  vi ovirt4.py
+  675  diff -uN ovirt4.py.orig ovirt4.py
+  676  diff -uN ovirt4.py.orig ovirt4.py | less
+  677  tower-manage --help
+  678  tower-manage cleanup-jobs
+  679  tower-manage cleanup-jobs --days=1
+  680  tower-manage cleanup_jobs 
+  681  tower-manage cleanup_jobs --days=1
+  682  tower-manage cleanup_jobs --days=0
+  683  cd /var/lib/awx/projects/_19__red_hat_virtualization/poweron-vms.ym
+  684  cd /var/lib/awx/projects/_19__red_hat_virtualization
+  685  ls
+  686  cat ovirt-engine-vars.yml 
+  687  cat poweron-vms.yml 
+  688  vi poweron-vms.yml 
+  689  ansible-playbook poweron-vms.yml 
+  690  ansible-playbook --version
+  691  cd /var/lib/awx/projects/_19__red_hat_virtualization
+  692  ls
+  693  vi poweron-vms.yml 
+  694  vi /tmp/inventory
+  695  ansible-playbook poweron-vms.yml -i /tmp/inventory --ask-vault-pass
+  696  vi poweron-vms.yml 
+  697  ansible-playbook poweron-vms.yml -i /tmp/inventory --ask-vault-pass
+  698  vi poweron-vms.yml 
+  699  ansible-playbook poweron-vms.yml -i /tmp/inventory --ask-vault-pass
+  700  vi poweron-vms.yml 
+  701  ansible-playbook poweron-vms.yml -i /tmp/inventory --ask-vault-pass
+  702  ansible-playbook --version
+  703  ansible --version
+  704  ls /usr/share/ansible/plugins/modules
+  705  find /var/ -iname \*ovirt\*
+  706  vi /var/lib/awx/venv/awx/lib/python2.7/site-packages/awx/plugins/inventory/ovirt4.py
+  707  find /var/ -iname \*ovirt\*
+  708  find /usr/ -iname \*ovirt\*
+  709  find /usr/ -iname \*ovirt_vm_\*
+  710  find /usr/ -iname \*ovirt_vms_\*
+  711  find /usr/ -iname \*ovirt_vms.\*
+  712  tower-manage cleanup_jobs --days=0
+  713  pip install ovirt-engine-sdk-python==4.2.4
+  714  pip install --upgrade pip
+  715  pip install ovirt-engine-sdk-python==4.2.4
+  716  pip install ovirt-engine-sdk-python
+  717  yum install libcurl-devel libxml2-devel
+  718  source /var/lib/awx/venv/ansible/bin/activate
+  719  umask 0022
+  720  umask 0022-SSL_LIBRARY=nss
+  721  export PYCURL_SSL_LIBRARY=nss
+  722  pip install ovirt-engine-sdk-python==4.2.4
+  723  exit
+  724  ls
+  725  mkdir pruebas
+  726  cd pruebas/
+  727  vi create.vm
+  728  yum install libcurl-devel libxml2-devel
+  729  source /var/lib/awx/venv/ansible/bin/active
+  730  source /var/lib/awx/venv/ansible/bin/activate
+  731  umask 0022
+  732  export PYCURL_SSL_LIBRARY=nss
+  733  pip install ovirt-engine-sdk-python==4.2.4
+  734  exit
+  735  yum update ansible 
+  736  yum update --help
+  737  yum install ansible 2.7.1
+  738  yum downgrade ansible-2.7.1
+  739  source /var/lib/awx/venv/ansible/bin/active
+  740  source /var/lib/awx/venv/ansible/bin/activate
+  741  source /var/lib/awx/venv/ansible/bin/activatesource /var/lib/awx/venv/ansible/bin/activate
+  742  source /var/lib/awx/venv/ansible/bin/activate
+  743  umask 0022
+  744  export PYCURL_SSL_LIBRARY=nss
+  745  pip install ovirt-engine-sdk-python==4.2.4
+  746  exit
+  747  pip install ovirt-engine-sdk-python==4.2.4
+  748  ping 10.10.90.55
+  749  ping 10.10.90.50
+  750  ping 10.10.90.55
+  751  ping 10.10.90.50
+  752  traceroute 10.10.90.50
+  753  ssh root@10.10.90.53
+  754  traceroute 10.10.90.53
+  755  ping 10.10.90.53
+  756  ping 10.10.90.51
+  757  ssh root@10.10.90.51
+  758  ssh admin@10.10.90.51
+  759  ssh root@10.10.90.54
+  760  ssh root@10.10.90.55
+  761  ssh root@10.10.90.54
+  762  "
+  763  curl url="https://rhvm-010c.rhpds.opentlc.com/ovirt-engine/api" user="admin@internal" password="r3dh4t1" curl \ --verbose \ --insecure \ --user "${user}:${password}" \ --request POST \ --header "Version: 4" \ --header "Content-Type: application/xml" \ --header "Accept: application/xml" \ --data ' <action>   <vm>     <name>testeclone</name>   </vm> </action> ' \ "${url}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
+  764  curl url="https://rhvm-010c.rhpds.opentlc.com/ovirt-engine/api" user="admin@internal" password="r3dh4t1" curl \ --verbose \ --insecure \ --user "${user}:${password}" \ --request POST \ --header "Version: 4" \ --header "Content-Type: application/xml" \ --header "Accept: application/xml" \ --data ' <action>   <vm>     <name>testecloneBea</name>   </vm> </action> ' \ "${url}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
+  765  curl url="https://rhvm-010c.rhpds.opentlc.com/ovirt-engine/api" user="admin@internal" password="r3dh4t1" curl \ --verbose \ --insecure \ --user "${user}:${password}" \ --request POST \ --header "Version: 4" \ --header "Content-Type: application/xml" \ --header "Accept: application/xml" \ --data ' <action>   <vm>     <name>zabbi444x</name>   </vm> </action> ' \ "${url}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
+  766  ls
+  767  cd ansible-tower-setup-3.4.1-1/
+  768  ls
+  769  ./setup.sh --help
+  770  ./setup.sh -b
+  771  ls
+  772  pwd
+  773  ls -lt tower-backup-2019-07-17-16\:33\:20.tar.gz 
+  774  ls -lt tower-backup-latest.tar.gz 
+  775  cd ..
+  776  git clone https://github.com/Ansible-RH-Madrid/RHV-Ansible-Workshop.git
+  777  cd RHV-Ansible-Workshop/
+  778  ls
+  779  cp ../ansible-tower-setup-3.4.1-1/tower-backup-2019-07-17-16\:33\:20.tar.gz ./
+  780  git add -A
+  781  git commit -a -m "tower Database"
+  782  git push
+  783  ls
+  784  cp ../ansible-tower-setup-3.4.1-1/tower-backup-latest.tar.gz ./
+  785  git add -A
+  786  git commit -a -m "tower Database"
+  787  git push
+  788  history
+  789  history > history
