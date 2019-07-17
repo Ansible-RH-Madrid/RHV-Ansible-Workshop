@@ -8,5 +8,5 @@
     - name: update ansible
       yum:
         state: present
-        namne: "{{ package_name }}"
+        name: "{{ package_name }}"
 
