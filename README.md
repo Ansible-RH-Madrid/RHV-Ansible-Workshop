@@ -175,14 +175,24 @@ Ansible is a full DevOps framework, designed from the ground up for simplicity a
 
 I'ts mais strenghts can be categorized into:
 ![image](images/ansible_strenghts.png)  
+<br />
 
 
 By targeting pretty much all techonogy verticals (from Windows OS's to full public cloud IaaS), Ansible can bridge the gap bettwen traditionally air-tight silos, and enable true to form DevOps interactions.
 ![image](images/ansible_capabilities.png)  
+<br />
+
 
 ![image](images/language_devops.png)  
 
+<br />
 
+Using human-readable code, organized into Ansible playbooks  
+![image](images/simple_plb.png)  
+<br />
+
+Operators can leverage the tailor-made DevOps Ansible Architecture  
+![image](images/ansible_arq)  
 
 
 Ansible Tower is a web-based UI that provides an enterprise solution for IT automation.  
