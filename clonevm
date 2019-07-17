@@ -1,0 +1,19 @@
+curl url="https://rhvm-010c.rhpds.opentlc.com/ovirt-engine/api"
+user="admin@internal"
+password="r3dh4t1!"
+curl \
+--verbose \
+--insecure \
+--user "${user}:${password}" \
+--request POST \
+--header "Version: 4" \
+--header "Content-Type: application/xml" \
+--header "Accept: application/xml" \
+--data '
+<action>
+  <vm>
+    <name>zabbix</name>
+  </vm>
+</action>
+' \
+"${url}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
