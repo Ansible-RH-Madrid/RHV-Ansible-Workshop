@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: database
 
   tasks:
 
@@ -8,3 +8,4 @@
        path: /etc/sysconfig/network-scripts/ifcfg-eth0
        state: absent
        regexp: '^HWADDR'
+     become: true

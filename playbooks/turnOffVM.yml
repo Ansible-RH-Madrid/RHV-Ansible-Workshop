@@ -17,8 +17,8 @@
       tags:
         - always
 
-   - name: Power off VM
-     ovirt_vms:
+    - name: Power off VM
+      ovirt_vms:
         auth: "{{ ovirt_auth }}"
         state: stopped
         name: "{{ vm_to_copy }}"
