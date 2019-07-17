@@ -1,0 +1,29 @@
+---
+- name: Create a clone from a VM
+  hosts: localhost
+
+  tasks:
+
+   - name: Auto-subscribe RHEL to available content.
+     command: |
+       url="https://rhvm-GUID.rhpds.opentlc.com/ovirt-engine/api"
+       user="admin@internal"
+       echo "$url : $user : $password"
+       curl \
+       --verbose \
+       --insecure \
+       --user "${user}:${password}" \
+       --request POST \
+       --header "Version: 4" \
+       --header "Content-Type: application/xml" \
+       --header "Accept: application/xml" \
+       --data '
+       <action>
+       <vm>
+       <name>noname</name>
+       </vm>
+       </action>
+       ' \
+       "${url}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
+     
+
