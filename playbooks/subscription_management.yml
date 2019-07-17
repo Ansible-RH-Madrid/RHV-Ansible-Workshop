@@ -1,0 +1,10 @@
+---
+- name: Refresh and auto attach subscription-manager
+  hosts: all
+
+  tasks:
+    - name: Auto-subscribe RHEL to available content.
+      command: |
+        subscription-manager refresh
+        subscription-manager attach --auto
+
