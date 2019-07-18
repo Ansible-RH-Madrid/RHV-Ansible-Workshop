@@ -171,7 +171,7 @@ Password: r3dh4t1!
 
 <br />
 
-**I'ts mais strenghts can be categorized into:**
+**IT's main strenghts can be categorized into:**
 ![image](images/ansible_strenghts.png)  
 <br />
 
@@ -221,4 +221,9 @@ Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/
 **Here you'll be presented with the Tower UI:**  
 ![image](images/tower_ui.png)  
 
-There are some key features of the UI that the instructor will go trough. Please follow to the best of your abilities.
+There are some key features of the UI that the instructor will go trough. Please follow to the best of your abilities.  
+<br />  
+
+# Lab 2.1 - Explore and Create Organizational Units (Orgs, Teams, Users and Credentials)
+Tower enables enterprises to organize and assign responsabilities that conform to their needs. From something as simple as creating local users and groups, to full-fledged Directory Services binding and multi-tenancy.
+
