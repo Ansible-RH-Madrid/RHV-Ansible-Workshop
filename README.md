@@ -253,3 +253,10 @@ Just name it and your done. This will create a top level container for all your 
 We can of course create new users either locally or by connecting to a directory service:
 ![image](images/create_user.png)  
 These users are then used for RBAC modelling.
+ <br />  
+ 
+
+Following the users rational, we can now for instance create credentials. These are used to access the end-devices themselves, and can range from ssh credentials to Cisco routers logins, etc. This flexibility is one of the main reasons why Ansible is so adapt at orchestrating different technologies.  
+
+Create creds:
+![image](images/create_credential.png)  
