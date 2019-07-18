@@ -210,7 +210,19 @@ For true enterprise scale execution and compliance, there's Ansible Tower.
 
 ---
 
-Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/  
+Before start working on Tower, clone this repo in your VM instance:
+```
+git clone https://github.com/Ansible-RH-Madrid/RHV-Ansible-Workshop.git
+```
+Copy the files tower-backup to /root/ansible-tower-setup-3.4.1-1/
+```
+sudo cp -v /root/RHV-Ansible-Workshop/tower-backup* /root/ansible-tower-setup-3.4.1-1/
+```
+Load the backup in Tower.
+```
+/root/ansible-tower-setup-3.4.1-1/setup.sh -r 
+```
+And now let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/  
 
 |td-admin|r3dh4t1!|
 |-|--|
