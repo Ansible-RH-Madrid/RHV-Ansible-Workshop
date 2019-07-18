@@ -2,8 +2,8 @@
 - hosts: all
   remote_user: root
   vars:
-    vm_to_copy: database 
-    vm_to_copy_ip: 10.10.90.51
+    vm_to_stop: database 
+#    vm_to_copy_ip: 10.10.90.51
   vars_files:
     - ovirt-engine-vars.yml
 
@@ -21,7 +21,7 @@
       ovirt_vms:
         auth: "{{ ovirt_auth }}"
         state: stopped
-        name: "{{ vm_to_copy }}"
+        name: "{{ vm_to_stop }}"
 
   post_tasks:
     - name: Logout from oVirt
