@@ -10,9 +10,11 @@
       yum:
         name: httpd
         state: present
+      become: true
 
     - name: httpd is started
       service:
         name: httpd
         state: restarted
         enabled: true
+      become: true
