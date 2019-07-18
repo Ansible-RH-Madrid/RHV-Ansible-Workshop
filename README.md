@@ -210,8 +210,10 @@ For true enterprise scale execution and compliance, there's Ansible Tower.
 
 ---
 
-Before start working on Tower, clone this repo in your VM instance:
+Before start working on Tower, access the node to clone this repo in your VM instance:
 ```
+[@localhost]$ssh -i ~/.ssh/rhvlab generic_emea_sseabra@workstation-{guid}.rhpds.opentlc.com
+[@workstation-4027 ~]$ ssh root@tower-4027.rhpds.opentlc.com
 git clone https://github.com/Ansible-RH-Madrid/RHV-Ansible-Workshop.git
 ```
 Copy the files tower-backup to /root/ansible-tower-setup-3.4.1-1/
