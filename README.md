@@ -230,10 +230,14 @@ Tower enables enterprises to organize and assign responsabilities that conform t
 Let's illustrate this with the creation of an Organization  
   
 ![image](images/create_organization.png)  
+<br />  
 
 
 Just name it and your done. This will create a top level container for all your Tower objects.
 ![image](images/create_organization01.png)  
+ <br />  
+ 
 
-
-
+We can of course create new users either locally or by connecting to a directory service:
+![image](images/create_user.png)  
+These users are then used for RBAC modelling.
