@@ -1,6 +1,6 @@
 ---
 - name: Install and start Apache HTTPD
-  hosts: "{{ servers }}"
+  hosts: all
   vars:
     index_message: "This is your new apache server"
     index_image: ""
