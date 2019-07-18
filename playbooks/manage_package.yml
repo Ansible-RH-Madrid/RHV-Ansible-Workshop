@@ -1,0 +1,13 @@
+---
+- name: Manage packages 
+  hosts: all
+  vars:
+    package_name: ""
+    package_state: ""
+
+  tasks:
+    - name: update ansible
+      yum:
+        state: "{{ package_state }}"
+        name: "{{ package_name }}"
+      become: true

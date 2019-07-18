@@ -2,8 +2,8 @@
 - hosts: all
   remote_user: root
   vars:
-    new_vm_name: 
-    new_vm_ip: 
+    new_vm_name: icigna
+    new_vm_ip: 10.10.90.51
     new_vm_root_pw:
     new_vm_cores: "2"
     new_vm_mem: "1024MiB"
@@ -17,13 +17,15 @@
     cluster:
     engine_url:
 
+  vars_files:          
+    - ovirt-engine-vars.yml 
 
   pre_tasks:
     - name: Login to oVirt
       ovirt_auth:
         url: "{{ engine_url }}"
-        username: "{{ engine_user }}"
-        password: "{{ engine_password }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
         insecure: "{{ engine_insecure | default(true) }}"
       tags:
         - always
@@ -80,16 +82,16 @@
 #       state: present
 #     delegate_to: "{{ new_vm_ip }}"
 
-   - name: Set Hostname "{{ new_vm_name }}"
-     hostname:
-        name: "{{ new_vm_name }}"
-     delegate_to: "{{ new_vm_ip }}"
-
-   - name: Auto-subscribe RHEL to available content.
-     command: |
-       subscription-manager refresh
-       subscription-manager attach --auto
-     delegate_to: "{{ new_vm_ip }}"  
+#   - name: Set Hostname "{{ new_vm_name }}"
+#     hostname:
+#        name: "{{ new_vm_name }}"
+#     delegate_to: "{{ new_vm_ip }}"
+#
+#   - name: Auto-subscribe RHEL to available content.
+#     command: |
+#       subscription-manager refresh
+#       subscription-manager attach --auto
+#     delegate_to: "{{ new_vm_ip }}"  
 
 #   - name: Auto-subscribe RHEL to available content.
 #     redhat_subscription:
@@ -104,21 +106,21 @@
 #     notify: Restart DNS
 #     delegate_to: "{{ new_vm_dns }}"
     
-   - name: Install epel
-     yum: name=epel-release state=latest
-     delegate_to: "{{ new_vm_ip }}"
-     
-   - name: Install ovirt guest tools
-     yum: 
-        name=ovirt-guest-agent-common
-        state=latest
-     delegate_to: "{{ new_vm_ip }}"
-     
-   - name: Start ovirt guest tools
-     systemd: 
-        state=started
-        name=ovirt-guest-agent
-     delegate_to: "{{ new_vm_ip }}"
+#   - name: Install epel
+#     yum: name=epel-release state=latest
+#     delegate_to: "{{ new_vm_ip }}"
+#     
+#   - name: Install ovirt guest tools
+#     yum: 
+#        name=ovirt-guest-agent-common
+#        state=latest
+#     delegate_to: "{{ new_vm_ip }}"
+#     
+#   - name: Start ovirt guest tools
+#     systemd: 
+#        state=started
+#        name=ovirt-guest-agent
+#     delegate_to: "{{ new_vm_ip }}"
 
  
   post_tasks:

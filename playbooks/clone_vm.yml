@@ -1,0 +1,32 @@
+---
+- name: Create a clone from a VM
+  hosts: localhost
+  vars:
+    engine_url: 
+    user: 
+    password: 
+
+  tasks:
+    - name: Clone VM
+      command: |
+        curl \
+        --verbose \
+        --insecure \
+        --user "{{ user }}":"{{ password }}" \
+        --request POST \
+        --header "Version: 4" \
+        --header "Content-Type: application/xml" \
+        --header "Accept: application/xml" \
+        --data '
+        <action>
+        <vm>
+        <name>noname</name>
+        </vm>
+        </action>
+        ' \
+        "{{ engine_url }}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
+    
+    - name: Wait 60 seconds for the clone to finish
+      wait_for:
+        timeout: 60 
+

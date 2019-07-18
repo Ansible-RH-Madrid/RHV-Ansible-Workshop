@@ -12,7 +12,7 @@ curl \
 --data '
 <action>
   <vm>
-    <name>zabbix</name>
+    <name>database_bck</name>
   </vm>
 </action>
 ' \
