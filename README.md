@@ -210,7 +210,19 @@ For true enterprise scale execution and compliance, there's Ansible Tower.
 
 ---
 
-Let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/  
+Before start working on Tower, clone this repo in your VM instance:
+```
+git clone https://github.com/Ansible-RH-Madrid/RHV-Ansible-Workshop.git
+```
+Copy the files tower-backup to /root/ansible-tower-setup-3.4.1-1/
+```
+sudo cp -v /root/RHV-Ansible-Workshop/tower-backup* /root/ansible-tower-setup-3.4.1-1/
+```
+Load the backup in Tower.
+```
+/root/ansible-tower-setup-3.4.1-1/setup.sh -r 
+```
+And now let's go ahead and acess the Tower UI: https://tower-GUID.rhpds.opentlc.com/  
 
 |td-admin|r3dh4t1!|
 |-|--|
@@ -227,3 +239,24 @@ There are some key features of the UI that the instructor will go trough. Please
 # Lab 2.1 - Explore and Create Organizational Units (Orgs, Teams, Users and Credentials)
 Tower enables enterprises to organize and assign responsabilities that conform to their needs. From something as simple as creating local users and groups, to full-fledged Directory Services binding and multi-tenancy.
 
+Let's illustrate this with the creation of an Organization  
+  
+![image](images/create_organization.png)  
+<br />  
+
+
+Just name it and your done. This will create a top level container for all your Tower objects.
+![image](images/create_organization01.png)  
+ <br />  
+ 
+
+We can of course create new users either locally or by connecting to a directory service:
+![image](images/create_user.png)  
+These users are then used for RBAC modelling.
+ <br />  
+ 
+
+Following the users rational, we can now for instance create credentials. These are used to access the end-devices themselves, and can range from ssh credentials to Cisco routers logins, etc. This flexibility is one of the main reasons why Ansible is so adapt at orchestrating different technologies.  
+
+Create creds:
+![image](images/create_credential.png)  
