@@ -260,3 +260,9 @@ Following the users rational, we can now for instance create credentials. These 
 
 Create creds:
 ![image](images/create_credential.png)  
+ <br />  
+Choose name and credential type (choose whatever you like)
+![image](images/credential_type.png)  
+ <br />  
+The full options page. As you can see, Ansible accounts for almost all possible permutations of authentication currently in use.
+![image](images/creds_all_options.png)  
