@@ -11,9 +11,6 @@
         name: "{{ new_vm_name }}"
      become: true
 
-   - name: Install epel
-     yum: name=epel-release state=latest
-
    - name: Install ovirt guest tools
      yum:
         name=ovirt-guest-agent-common
