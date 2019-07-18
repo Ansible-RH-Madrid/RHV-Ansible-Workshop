@@ -4,27 +4,17 @@
   vars:
     vm_name:
     template_name:
-    cluster:
     description: "Test template"
-#    new_vm_ip:
-#    new_vm_root_pw:
-#    new_vm_cores: "2"
-#    new_vm_mem: "1024MiB"
-#    new_vm_msk:
-#    new_vm_gw:
-#    new_vm_dns:
-#    new_vm_dns_search: "testing.example.com"
-    engine_user: admin@internal
-    engine_password: "XXXXX"
-    engine_url:
 
+  vars_files:
+    - ovirt-engine-vars.yml
 
   pre_tasks:
     - name: Login to oVirt
       ovirt_auth:
         url: "{{ engine_url }}"
-        username: "{{ engine_user }}"
-        password: "{{ engine_password }}"
+        username: "{{ username }}"
+        password: "{{ password }}"
         insecure: "{{ engine_insecure | default(true) }}"
       tags:
         - always
