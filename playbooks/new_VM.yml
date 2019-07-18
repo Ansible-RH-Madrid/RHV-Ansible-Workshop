@@ -2,7 +2,7 @@
 - hosts: all
   remote_user: root
   vars:
-    new_vm_name: 
+    new_vm_name: icigna
     new_vm_ip: 10.10.90.51
     new_vm_root_pw:
     new_vm_cores: "2"
