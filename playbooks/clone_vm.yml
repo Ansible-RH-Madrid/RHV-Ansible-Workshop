@@ -27,6 +27,6 @@
         "{{ engine_url }}/vms/7c380d6e-072b-4ba5-b244-30076332c3e4/clone"
     
     - name: Wait 30 seconds for the clone to finish
-      pause:
-        minutes: 0.5 
+      wait_for:
+        timeout: 30 
 
