@@ -1,0 +1,7 @@
+rpm --import https://packages.icinga.com/icinga.key && yum install https://packages.icinga.com/epel/icinga-rpm-release-7-latest.noarch.rpm
+subscription-manager repos --enable=rhel-server-rhscl-7-rpms
+yum install epel-release
+subscription-manager repos --enable rhel-7-server-optional-rpms
+yum install mariadb-server mariadb
+yum install icinga2-ido-mysql
+yum install MySQL-python
