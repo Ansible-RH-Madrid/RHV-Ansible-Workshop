@@ -1,2 +1,1 @@
-# from GitHub, overriding the name and specifying a specific tag
-- src: https://github.com/Icinga/ansible-playbooks/tree/master/icinga2-ansible-web2-uhttps://github.com/Icinga/ansible-playbooks/tree/master/icinga2-ansible-web2-ui-web2-ui
+- src: chrnie.icinga2
