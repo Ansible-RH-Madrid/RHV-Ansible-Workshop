@@ -1,4 +1,4 @@
 # from GitHub, overriding the name and specifying a specific tag
-- src: https://github.com/Icinga/ansible-playbooks/tree/master/icinga2-ansible-web-ui
+- src: https://github.com/Icinga/ansible-playbooks
   version: master
   name: icinga2-ansible-web2-ui
