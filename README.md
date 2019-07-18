@@ -227,3 +227,13 @@ There are some key features of the UI that the instructor will go trough. Please
 # Lab 2.1 - Explore and Create Organizational Units (Orgs, Teams, Users and Credentials)
 Tower enables enterprises to organize and assign responsabilities that conform to their needs. From something as simple as creating local users and groups, to full-fledged Directory Services binding and multi-tenancy.
 
+Let's illustrate this with the creation of an Organization  
+  
+![image](images/create_organization.png)  
+
+
+Just name it and your done. This will create a top level container for all your Tower objects.
+![image](images/create_organization01.png)  
+
+
+
