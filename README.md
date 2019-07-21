@@ -11,7 +11,7 @@ There, please input your email and code so that a Lab may be assigned to you.
 
 
 Example:
-![image](images/example_get_guid.png)
+![image]()
 
 
 Section 1: Red Hat Virtualization Essentials
