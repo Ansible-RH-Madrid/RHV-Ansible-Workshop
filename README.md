@@ -212,7 +212,7 @@ For true enterprise scale execution and compliance, there's Ansible Tower.
 
 Before start working on Tower, access the node to clone this repo in your VM instance:
 ```
-[@localhost]$ssh -i ~/.ssh/rhvlab generic_emea_sseabra@workstation-{guid}.rhpds.opentlc.com
+[@localhost]$ssh -i ~/.ssh/rhvlab user_will_be_provided@workstation-{guid}.rhpds.opentlc.com
 [@workstation-{guid} ~]$ ssh root@tower-{guid}.rhpds.opentlc.com
 git clone https://github.com/Ansible-RH-Madrid/RHV-Ansible-Workshop.git
 ```
