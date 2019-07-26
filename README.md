@@ -3,7 +3,6 @@
 **
 
 We'll start by logging into the demo environment at: T.B.A  
-
 There, please input your email and code so that a Lab may be assigned to you.
 
 |Activation Code:|T.B.A|
